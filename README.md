@@ -34,6 +34,8 @@ function myFunction() {
 }
 </script>
 
+# Placing scripts at the bottom of the <body> element improves the display speed, because script interpretation slows down the display.
+
 # Did You Know?
  # 1. JavaScript and Java are two completely different languages, both in concept and design.
 
