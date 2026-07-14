@@ -1,4 +1,6 @@
 # JavaScript Fundamentals
+# NOTE - JavaScript is the default scripting language in HTML, so the type="text/javascript" attribute is no longer necessary in '<script>' tags. Older examples might still include it, but it can be omitted without affecting functionality.
+
 # Did You Know?
  # 1. JavaScript and Java are two completely different languages, both in concept and design.
 
