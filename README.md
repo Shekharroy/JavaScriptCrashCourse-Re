@@ -1,6 +1,10 @@
-# JavaScriptCrashCourse-Re
-
 # JavaScript Fundamentals
+# Did You Know?
+ # 1. JavaScript and Java are two completely different languages, both in concept and design.
+
+ # 2. JavaScript was invented by Brendan Eich in 1995, and became an ECMA standard in 1997.
+
+ # 3. ECMA-262 is the official name of the standard. ECMAScript is the official name of the language.
 
  # Question - What is JavaScript ?
 
