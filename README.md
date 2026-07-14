@@ -1,6 +1,39 @@
 # JavaScript Fundamentals
 # NOTE - JavaScript is the default scripting language in HTML, so the type="text/javascript" attribute is no longer necessary in '<script>' tags. Older examples might still include it, but it can be omitted without affecting functionality.
 
+# JavaScript Functions and Events - A JavaScript function is a block of JavaScript code, that can be executed when "called" for. For example, a function can be called when an event occurs, like when the user clicks a button.
+# Explanation -  A JavaScript function is a reusable block of code that performs a specific task. It can be defined once and then executed multiple times throughout your program. Functions help organize your code, make it more modular, and improve readability.
+
+ -- Here's a breakdown of key aspects:
+
+Definition: You define a function using the function keyword, followed by a name, a list of parameters in parentheses, and the code to be executed within curly braces.
+
+javascript
+function greet(name) {
+  return "Hello, " + name + "!";
+}
+Calling/Invoking: To execute a function, you "call" or "invoke" it by using its name followed by parentheses, passing any required arguments.
+
+javascript
+
+greet("Alice"); // This would return "Hello, Alice!"
+Parameters and Arguments:
+
+Parameters are placeholders for values that a function expects to receive when it's called (e.g., name in the greet example).
+Arguments are the actual values passed to the function when it's invoked (e.g., "Alice" in the greet("Alice") example).
+Return Value: Functions can optionally return a value using the return keyword. If no return statement is present, the function implicitly returns undefined.
+
+Event Handling: As your example states, functions are often used as event handlers. This means they are executed when a specific event occurs, such as a user clicking a button, a page loading, or a form being submitted.
+
+javascript
+<button onclick="myFunction()">Click me</button>
+
+<script>
+function myFunction() {
+  alert("Button clicked!");
+}
+</script>
+
 # Did You Know?
  # 1. JavaScript and Java are two completely different languages, both in concept and design.
 
