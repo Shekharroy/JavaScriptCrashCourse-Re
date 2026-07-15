@@ -40,6 +40,15 @@ function myFunction() {
 
 # Use innerText when you only want to change the plain text.
 # Using document.write() after an HTML document is loaded, will delete all existing HTML: --> The document.write() method should only be used for testing.
+# window.alert():->
+# You can skip the window keyword.
+# In JavaScript, the window object is the global scope object. 
+# This means that variables, properties, and methods by default belong to the window object. 
+# This also means that specifying the window keyword is optional:
+# For debugging purposes, you can call the console.log() method in the browser to display data.
+# JavaScript does not have any print object or print methods.
+# You cannot access output devices from JavaScript.
+# The only exception is that you can call the window.print() method in the browser to print the content of the current window.
 
 # Did You Know?
  # 1. JavaScript and Java are two completely different languages, both in concept and design.
