@@ -36,6 +36,10 @@ function myFunction() {
 
 # Placing scripts at the bottom of the <body> element improves the display speed, because script interpretation slows down the display.
 
+# Use innerHTML when you want to change an HTML element.
+
+# Use innerText when you only want to change the plain text.
+
 # Did You Know?
  # 1. JavaScript and Java are two completely different languages, both in concept and design.
 
