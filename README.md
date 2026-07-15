@@ -39,6 +39,7 @@ function myFunction() {
 # Use innerHTML when you want to change an HTML element.
 
 # Use innerText when you only want to change the plain text.
+# Using document.write() after an HTML document is loaded, will delete all existing HTML: --> The document.write() method should only be used for testing.
 
 # Did You Know?
  # 1. JavaScript and Java are two completely different languages, both in concept and design.
