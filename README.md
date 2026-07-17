@@ -50,6 +50,76 @@ function myFunction() {
 # You cannot access output devices from JavaScript.
 # The only exception is that you can call the window.print() method in the browser to print the content of the current window.
 
+# Syntax Rule: -
+# 1. How to declear variables: --> let x=5; and let y=6;
+# 2. How to compute values: --> let z = x+y;
+
+# JavaScript Values:
+# Javascript syntax defines two types of values: 1. Literals(Fixed Valuies), 2. Variables (Variables values)
+  # Note:- Numbers can be written with or without decimals. e.g. 10 or 10.50 <-- Example of Literals(Fixed Values)
+  # JavaScript String: -> Strings are text, written within double or single quotes:
+
+  # JavaScript Keywords
+  # JavaScript keywords are used to defines actions to be performed.
+
+  # The let and const keywords create variables:-->  let x = 5; const fname = "John";
+
+  # JavaScript keywords are case-sensitive.
+
+  # JavaScript does not interpret LET or Let as the keyword let.(JavaScript, LET या Let को 'let' कीवर्ड के तौर पर नहीं समझता है। Because JavaScript कीवर्ड केस-सेंसिटिव होते हैं।)
+
+  # JavaScript Variables:- Variables are containers for storing data values. Variables must be identified with unique names. (JavaScript वेरिएबल्स:- वेरिएबल्स डेटा वैल्यूज़ को स्टोर करने के लिए कंटेनर होते हैं। वेरिएबल्स की पहचान यूनिक नामों से की जानी चाहिए।)
+
+  # JavaScript Identifiers
+  # An identifier is the name you give to a variable.
+
+  # Rules for identifiers:
+
+  # Must start with a letter, _, or $
+  # Can contain digits after the first character
+  # Cannot be a reserved keyword (let, const, if, etc.)
+  # Are case-sensitive
+# ( JavaScript आइडेंटिफ़ायर: - आइडेंटिफ़ायर वह नाम है जो आप किसी वेरिएबल को देते हैं।
+
+ # आइडेंटिफ़ायर के नियम: 1. यह अक्षर (letter), _ या $ से शुरू होना चाहिए। पहले कैरेक्टर के बाद इसमें अंक (digits) हो सकते हैं। 2. यह कोई रिज़र्व्ड कीवर्ड (जैसे let, const, if, आदि) नहीं हो सकता। 3. ये केस-सेंसिटिव (case-sensitive) होते हैं। )
+
+ # JavaScript Operators: 1. JavaScript assignment operators (=) assign values to variables. 2. JavaScript uses arithmetic operators ( + - * / ) to compute values.
+
+ # JavaScript Expressions:- An expression is a combination of values, variables, and operators, which computes to a value. (एक्सप्रेशन, वैल्यूज़, वेरिएबल्स और ऑपरेटर्स का एक कॉम्बिनेशन होता है, जो कैलकुलेट होकर एक वैल्यू देता है।)
+
+ # JavaScript Expressions:->> An expression is a combination of values, variables, and operators, which computes to a value.
+
+ # BODMAS: - 
+
+ # Example of BODMAS in ActionLet's solve the expression: 10 + 2 × (3 + 2)²Brackets first: Calculate (3 + 2)10 + 2 × (5)²Orders next: Calculate 5² (5 × 5 = 25)10 + 2 × 25Multiplication next: Calculate 2 × 2510 + 50Addition last: Calculate 10 + 50 = 60
+
+ # Breaking Down the RuleWhen presented with a complex equation, operations cannot be solved simply from left to right. You must follow the BODMAS sequence strictly: 
+
+ # 1. Brackets: Always clear the brackets first, solving them from the "inside out" (e.g., round (), curly {}, then square []). 
+
+ # 2.Orders: Solve any exponents, powers, or square roots (e.g., 3²). 
+
+ # 3.Division & Multiplication: These two have equal priority. Evaluate them from left to right as they appear in the equation.
+
+ # 4.Addition & Subtraction: These operations also share the same priority. Like multiplication and division, solve them from left to right as they appear.
+
+ # JavaScript and Camel Case: 
+ # Historically, programmers have used different ways of joining multiple words into one variable name:
+
+ # Hyphens: first-name, last-name, master-card, inter-city.
+
+ # Hyphens are not allowed in JavaScript. They are reserved for subtractions.
+
+ # Underscore: first_name, last_name, master_card, inter_city.
+
+ # Upper Camel Case (Pascal Case): FirstName, LastName, MasterCard, InterCity.
+
+
+ # Lower Camel Case: firstName, lastName, masterCard, interCity.
+
+ # JavaScript programmers tend to use lower camel case.
+
+
 # Did You Know?
  # 1. JavaScript and Java are two completely different languages, both in concept and design.
 
