@@ -119,7 +119,49 @@ function myFunction() {
 
  # JavaScript programmers tend to use lower camel case.
 
+ # JavaScript Statements:- 
+  -- let x, y, z; // Statement1; 
+  -- x = 5;       // statement2;
+  -- y = 6;       // statement3;
+  -- z = x+y;     // Statement4;
 
+# ***** JavaScript Programs ****
+   # A computer program is a list of "instructions" to be "executed" by a computer.
+   # These programming instruction are called statements.
+   # Most JavaScript programs contains many statements;
+   # The statements are executed one by one, in the same order as they are written;
+   # In HTML Javascript Prgrams are executed by the web browser.
+
+# ***** JavaScript Statement *****
+  # javascript statements are composed of:
+  # 1. Values
+  # 2. Operators
+  # 3. Expressions
+  # 4. Keywords, and 
+  # 5. Comments
+
+  # Semicolons separate JavaScript statements. Add a semicolon at the end of each executable statement: E.g:
+   # let a, b, c;  // Declare 3 variables
+   # a = 5;        // Assign the value 5 to a
+   # b = 6;        // Assign the value 6 to b
+   # c = a + b;    // Assign the sum of a and b to c
+
+  # When separated by semicolons, multiple statements on one line are allowed: E.g: a = 5; b = 6; c = a + b;
+  # On the web, you might see examples without semicolons. Ending statements with semicolon is not required, but highly recommended.
+
+   # **** JavaScripr White Space ****
+   # JavaScript ignores multiple spaces. You can add white space to your script to make it more readable.
+
+   # The following lines are equivalent:
+   # let person = "Hege";
+   # let person="Hege";
+
+   # A good practice is to put spaces around operators ( = + - * / ): E.g: let x = y + z;
+   # JavaScript Line Length and Line Breaks: -For best readability, programmers often like to avoid code lines longer than 80 characters. If a JavaScript statement does not fit on one line, the best place to break it is after an operator: E.g:- document.getElementById("demo").innerHTML =
+   # "Hello Dolly!";
+
+   # JavaScript Code Blocks
+   # JavaScript statements can be grouped together in code blocks, inside curly brackets {...}. The purpose of code blocks is to define statements to be executed together. ( JavaScript स्टेटमेंट्स को कर्ली ब्रैकेट्स {...} के अंदर कोड ब्लॉक्स में एक साथ रखा जा सकता है। कोड ब्लॉक्स का मकसद उन स्टेटमेंट्स को तय करना है जिन्हें एक साथ चलाया जाना है। )
 # Did You Know?
  # 1. JavaScript and Java are two completely different languages, both in concept and design.
 
