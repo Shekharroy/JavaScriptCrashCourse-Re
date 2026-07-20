@@ -162,6 +162,83 @@ function myFunction() {
 
    # JavaScript Code Blocks
    # JavaScript statements can be grouped together in code blocks, inside curly brackets {...}. The purpose of code blocks is to define statements to be executed together. ( JavaScript स्टेटमेंट्स को कर्ली ब्रैकेट्स {...} के अंदर कोड ब्लॉक्स में एक साथ रखा जा सकता है। कोड ब्लॉक्स का मकसद उन स्टेटमेंट्स को तय करना है जिन्हें एक साथ चलाया जाना है। )
+
+   # JavaScript Variables:
+   #  Variables = Data Containers
+   # JavaScript variables are containers for data.
+   # JavaScript variables can be declared in 4 ways: Modern JavaScript:- 1. Using let; 2. Using const; Older JavaScript: 3. Using var (Not Recommended); 4. Automatically (Not Recommended);
+
+   # Variables are labels for data values.
+
+   # Variables are containers for storing data.
+
+   # JavaScript Identifiers:
+   # Variables are identified with names called identifiers.
+   # Names can be short like x, y, z.
+   # Names can be descriptive like age, sum, carName.
+
+   # The rules for constructing names (identifiers) are:
+
+   . Names can contain letters, digits, underscores, and dollar signs.
+   . Names must begin with a letter, a $ sign or an underscore (_).
+   . Names are case sensitive (X is different from x).
+   . Reserved words (JavaScript keywords) cannot be used as names.
+  #  Numbers are not allowed as the first character in names.
+
+  # This way JavaScript can easily distinguish identifiers from numbers.
+
+  # A convention among professional programmers is to start a name with underscore for "private" variables.
+
+  # Using the $ is not very common in JavaScript, but professional programmers often use it as an alias for the main function in JavaScript libraries.
+  # JavaScript Dollar Sign $: - JavaScript also treats a dollar sign as a letter. Identifiers containing $ are valid variable names:
+
+  # Declaring JavaScript Variables: Creating a variable in JavaScript is called declaring a variable. You declare a JavaScript variable with the let keyword or the const keyword.
+
+  # Declaring a Variable Using let: e.g.: let carName; - After the declaration, the variable has no value (technically it is undefined).
+
+ # To assign a value to the variable, use the equal sign: carName = "Volvo";
+
+ # Always use const if the value should not be changed
+
+ # When to Use var, let, or const?
+  1. Always declare variables
+
+  2. Always use const if the value should not be changed
+
+  3. Always use const if the type should not be changed (Arrays and Objects)
+
+  4. Only use let if you cannot use const
+
+  5. Avoid using var.
+
+# JavaScript Data Types: JavaScript variables can hold 8 datatypes.
+# The Assignment Operator: In JavaScript, the equal sign (=) is an assignment operator, not an equal to operator. This is different from algebra. The following does not make sense in algebra: e.g: x = x + 5;
+   In JavaScript, however, it makes perfect sense: it assigns the value of x + 5 to x.
+
+  (It calculates the value of x + 5 and puts the result into x. The value of x is incremented by 5.)
+
+
+# NOTE: --> The equal to operator is written like == in JavaScript.
+# If you put a number in quotes, the rest of the numbers will be treated as strings, and concatenated.
+
+# Let Hoisting: --> Variables defined with var are hoisted to the top and can be initialized at any time. Meaning: You can use the variable before it is declared:
+
+# If you want to learn more about hoisting, study the chapter JavaScript Hoisting.
+
+# Variables defined with let are also hoisted to the top of the block, but not initialized.
+
+# Meaning: Using a let variable before it is declared will result in a "ReferenceError":
+
+# Hoisting: --> Variables defined with var are hoisted to the top and can be initialized at any time. Meaning: You can use the variable before it is declared:
+
+e.g:- <p id="demo"></p>
+
+  <script>
+  carName = "Volvo";
+  document.getElementById("demo").innerHTML = carName;
+  var carName;
+  </script>
+
 # Did You Know?
  # 1. JavaScript and Java are two completely different languages, both in concept and design.
 
